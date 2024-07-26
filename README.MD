@@ -1,0 +1,1 @@
+# Showcase for usage of mydumper, myloader and bin2logsql

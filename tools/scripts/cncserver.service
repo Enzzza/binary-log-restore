@@ -1,0 +1,9 @@
+[Unit]
+Description=Command and control server
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash /home/vagrant/tools/scripts/server.sh
+
+[Install]
+WantedBy=multi-user.target

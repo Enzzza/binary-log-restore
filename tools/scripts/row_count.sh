@@ -1,0 +1,9 @@
+#!/bin/bash
+
+MYSQL_USER="root"
+MYSQL_PASSWORD="password"
+MYSQL_DATABASE="smartmate"
+
+MYSQL_COMMAND="SELECT COUNT(*) AS NUMBER_OF_ROWS FROM employees;"
+
+mysql -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQL_DATABASE" -e "$MYSQL_COMMAND"
